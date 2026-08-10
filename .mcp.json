@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tuteliq": {
+      "type": "http",
+      "url": "https://api.tuteliq.ai/mcp"
+    }
+  }
+}

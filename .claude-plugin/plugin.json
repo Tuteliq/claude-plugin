@@ -1,0 +1,23 @@
+{
+  "name": "tuteliq",
+  "description": "Child-safety and fraud detection for text, voice, image and video. Bundles the Tuteliq MCP server plus workflow skills for grooming audits, incident moderation and compliance export.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tuteliq AB",
+    "url": "https://tuteliq.ai"
+  },
+  "homepage": "https://docs.tuteliq.ai",
+  "repository": "https://github.com/Tuteliq/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "child-safety",
+    "content-moderation",
+    "grooming-detection",
+    "trust-and-safety",
+    "kosa",
+    "dsa",
+    "coppa",
+    "age-verification",
+    "fraud-detection"
+  ]
+}

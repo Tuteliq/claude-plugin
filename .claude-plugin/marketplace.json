@@ -1,0 +1,37 @@
+{
+  "name": "tuteliq",
+  "owner": {
+    "name": "Tuteliq AB",
+    "url": "https://tuteliq.ai"
+  },
+  "metadata": {
+    "description": "Child-safety and fraud detection for AI agents and moderation teams.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tuteliq",
+      "source": "./",
+      "description": "Real-time detection of grooming, bullying, CSAM, self-harm and fraud across text, voice, image and video, plus moderation queue and compliance workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tuteliq AB",
+        "url": "https://tuteliq.ai"
+      },
+      "homepage": "https://docs.tuteliq.ai",
+      "license": "MIT",
+      "keywords": [
+        "child-safety",
+        "content-moderation",
+        "grooming-detection",
+        "trust-and-safety",
+        "kosa",
+        "dsa",
+        "coppa",
+        "gdpr",
+        "age-verification",
+        "fraud-detection"
+      ]
+    }
+  ]
+}
