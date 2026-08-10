@@ -1,18 +1,18 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "tuteliq",
+  "description": "Child-safety and fraud detection for AI agents and moderation teams.",
   "owner": {
     "name": "Tuteliq AB",
+    "email": "support@tuteliq.ai",
     "url": "https://tuteliq.ai"
-  },
-  "metadata": {
-    "description": "Child-safety and fraud detection for AI agents and moderation teams.",
-    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "tuteliq",
-      "source": "./",
       "description": "Real-time detection of grooming, bullying, CSAM, self-harm and fraud across text, voice, image and video, plus moderation queue and compliance workflows.",
+      "category": "security",
+      "source": "./",
       "version": "1.0.0",
       "author": {
         "name": "Tuteliq AB",
