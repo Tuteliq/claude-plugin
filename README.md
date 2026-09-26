@@ -31,6 +31,12 @@ Sign in with OAuth. There is no API key to copy into a config file.
 - **Compliance evidence on demand.** Audit logs, signed audit receipts, consent
   ledger, breach register and GDPR subject request handling for KOSA, DSA,
   COPPA, the EU AI Act and GDPR.
+- **Age assurance for the age thresholds regulators are converging on.**
+  Document and selfie verification, and age estimation from image or voice, for
+  the under-13 line in COPPA and the under-15 line in the **proposed EU KIDS
+  Act** (EU Keeping Internet Digital Spaces Accountable and Trustworthy,
+  proposed 17 September 2026). The proposal is not in force; this is the
+  tooling for the threshold it sets out.
 - **Zero content retention.** Messages, images, audio, video and documents are
   processed in memory and never persisted, raw or derived. What remains is the
   abstracted detection record.

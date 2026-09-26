@@ -30,8 +30,12 @@
     "online-safety",
     "kosa",
     "dsa",
+    "eu-kids-act",
     "coppa",
     "gdpr",
-    "mcp"
+    "mcp",
+    "eu-ai-act",
+    "digital-services-act",
+    "kids-online-safety-act"
   ]
 }
