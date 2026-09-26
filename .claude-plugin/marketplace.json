@@ -15,14 +15,11 @@
       "category": "security",
       "source": "./",
       "version": "1.0.1",
-      "icon": "./assets/icon.svg",
       "author": {
         "name": "Tuteliq AB",
         "url": "https://tuteliq.ai"
       },
       "homepage": "https://docs.tuteliq.ai",
-      "privacyPolicyUrl": "https://tuteliq.ai/privacy",
-      "termsOfServiceUrl": "https://tuteliq.ai/terms",
       "license": "MIT",
       "keywords": [
         "child-safety",
