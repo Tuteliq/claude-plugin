@@ -44,7 +44,46 @@
         "coppa",
         "gdpr",
         "mcp"
-      ]
+      ],
+      "tags": [
+        "child-safety",
+        "content-moderation",
+        "moderation",
+        "trust-and-safety",
+        "grooming-detection",
+        "csam-detection",
+        "cyberbullying",
+        "self-harm-detection",
+        "deepfake-detection",
+        "synthetic-media",
+        "fraud-detection",
+        "scam-detection",
+        "age-verification",
+        "online-safety",
+        "kosa",
+        "dsa",
+        "coppa",
+        "gdpr",
+        "mcp"
+      ],
+      "relevance": {
+        "topic": "trust and safety",
+        "signals": {
+          "cli": [
+            "tuteliq"
+          ],
+          "hosts": [
+            "api.tuteliq.ai",
+            "docs.tuteliq.ai"
+          ],
+          "manifestDeps": [
+            {
+              "file": "[/\\\\]package\\.json$",
+              "pattern": "\"@tuteliq/(sdk|mcp|cli|react-native)\"\\s*:"
+            }
+          ]
+        }
+      }
     }
   ]
 }
