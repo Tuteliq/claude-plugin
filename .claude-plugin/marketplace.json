@@ -10,7 +10,8 @@
   "plugins": [
     {
       "name": "tuteliq",
-      "description": "Real-time detection of grooming, bullying, CSAM, self-harm and fraud across text, voice, image and video, plus moderation queue and compliance workflows.",
+      "displayName": "Tuteliq",
+      "description": "Detect grooming, bullying, CSAM, self-harm, deepfakes and fraud across text, voice, image and video. Around 80 moderation and compliance tools over MCP.",
       "category": "security",
       "source": "./",
       "version": "1.0.1",
@@ -26,14 +27,23 @@
       "keywords": [
         "child-safety",
         "content-moderation",
-        "grooming-detection",
+        "moderation",
         "trust-and-safety",
+        "grooming-detection",
+        "csam-detection",
+        "cyberbullying",
+        "self-harm-detection",
+        "deepfake-detection",
+        "synthetic-media",
+        "fraud-detection",
+        "scam-detection",
+        "age-verification",
+        "online-safety",
         "kosa",
         "dsa",
         "coppa",
         "gdpr",
-        "age-verification",
-        "fraud-detection"
+        "mcp"
       ]
     }
   ]

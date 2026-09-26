@@ -1,6 +1,7 @@
 {
   "name": "tuteliq",
-  "description": "Child-safety and fraud detection for text, voice, image and video. Bundles the Tuteliq MCP server plus workflow skills for grooming audits, incident moderation and compliance export.",
+  "displayName": "Tuteliq",
+  "description": "Detect grooming, bullying, CSAM, self-harm, deepfakes and fraud across text, voice, image and video. Around 80 moderation and compliance tools over MCP.",
   "version": "1.0.1",
   "icon": "./assets/icon.svg",
   "author": {
@@ -15,12 +16,22 @@
   "keywords": [
     "child-safety",
     "content-moderation",
-    "grooming-detection",
+    "moderation",
     "trust-and-safety",
+    "grooming-detection",
+    "csam-detection",
+    "cyberbullying",
+    "self-harm-detection",
+    "deepfake-detection",
+    "synthetic-media",
+    "fraud-detection",
+    "scam-detection",
+    "age-verification",
+    "online-safety",
     "kosa",
     "dsa",
     "coppa",
-    "age-verification",
-    "fraud-detection"
+    "gdpr",
+    "mcp"
   ]
 }
