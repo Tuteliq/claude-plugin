@@ -14,7 +14,7 @@
       "category": "security",
       "source": "./",
       "version": "1.0.1",
-      "icon": "./assets/icon.png",
+      "icon": "./assets/icon.svg",
       "author": {
         "name": "Tuteliq AB",
         "url": "https://tuteliq.ai"

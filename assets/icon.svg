@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512" role="img" aria-label="Tuteliq">
+  <title>Tuteliq guardian mark</title>
+  <!-- Self-contained tile: a directory icon cannot assume the background it
+       renders on, and the brand mark is #1D1D33, which disappears on a dark
+       surface. This uses the official dark-mode treatment from
+       assets/vector-logo/tuteliq-logo-dark.svg (mark #F7F9FC, node #19B79A)
+       on the brand navy, so it stays legible on light and dark alike. -->
+  <rect width="100" height="100" rx="22" fill="#1D1D33"/>
+  <g transform="translate(50 50) scale(0.78) translate(-50 -50)">
+    <path d="M 50 6 C 62 6.2 76 7.6 83.3 11.2 C 90 14.6 93.6 19 93.6 25.2 C 93.6 34 92 44 88.9 53.2 C 86.5 60.3 84 65.6 80.7 70.7 C 77.5 75.8 74 80.5 69.1 84.7 C 63.5 89.4 57 93 50 94 C 43 93 36.5 89.4 30.9 84.7 C 26 80.5 22.5 75.8 19.3 70.7 C 16 65.6 13.5 60.3 11.1 53.2 C 8 44 6.4 34 6.4 25.2 C 6.4 19 10 14.6 16.7 11.2 C 24 7.6 38 6.2 50 6 Z"
+          fill="none" stroke="#F7F9FC" stroke-width="5" stroke-linejoin="round"/>
+    <g stroke="#F7F9FC" stroke-width="2.4">
+      <line x1="38.4" y1="50.2" x2="46.3" y2="38.5"/>
+      <line x1="61.6" y1="50.2" x2="53.7" y2="38.5"/>
+      <line x1="43.5" y1="59" x2="56.5" y2="59"/>
+    </g>
+    <circle cx="50" cy="29.3" r="7.8" fill="#19B79A"/>
+    <circle cx="34" cy="58" r="7.4" fill="#F7F9FC"/>
+    <circle cx="66" cy="58" r="7.4" fill="#F7F9FC"/>
+  </g>
+</svg>
