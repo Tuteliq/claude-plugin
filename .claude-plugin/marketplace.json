@@ -10,10 +10,11 @@
   "plugins": [
     {
       "name": "tuteliq",
-      "description": "Real-time detection of grooming, bullying, CSAM, self-harm and fraud across text, voice, image and video, plus moderation queue and compliance workflows.",
+      "displayName": "Tuteliq",
+      "description": "Detect grooming, bullying, CSAM, self-harm, deepfakes and fraud across text, voice, image and video. Around 80 moderation and compliance tools over MCP.",
       "category": "security",
       "source": "./",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Tuteliq AB",
         "url": "https://tuteliq.ai"
@@ -23,15 +24,71 @@
       "keywords": [
         "child-safety",
         "content-moderation",
-        "grooming-detection",
+        "moderation",
         "trust-and-safety",
+        "grooming-detection",
+        "csam-detection",
+        "cyberbullying",
+        "self-harm-detection",
+        "deepfake-detection",
+        "synthetic-media",
+        "fraud-detection",
+        "scam-detection",
+        "age-verification",
+        "online-safety",
         "kosa",
         "dsa",
+        "eu-kids-act",
         "coppa",
         "gdpr",
+        "mcp",
+        "eu-ai-act",
+        "digital-services-act",
+        "kids-online-safety-act"
+      ],
+      "tags": [
+        "child-safety",
+        "content-moderation",
+        "moderation",
+        "trust-and-safety",
+        "grooming-detection",
+        "csam-detection",
+        "cyberbullying",
+        "self-harm-detection",
+        "deepfake-detection",
+        "synthetic-media",
+        "fraud-detection",
+        "scam-detection",
         "age-verification",
-        "fraud-detection"
-      ]
+        "online-safety",
+        "kosa",
+        "dsa",
+        "eu-kids-act",
+        "coppa",
+        "gdpr",
+        "mcp",
+        "eu-ai-act",
+        "digital-services-act",
+        "kids-online-safety-act"
+      ],
+      "relevance": {
+        "topic": "trust and safety",
+        "signals": {
+          "cli": [
+            "tuteliq"
+          ],
+          "hosts": [
+            "api.tuteliq.ai",
+            "docs.tuteliq.ai"
+          ],
+          "manifestDeps": [
+            {
+              "file": "[/\\\\]package\\.json$",
+              "pattern": "\"@tuteliq/(sdk|mcp|cli|react-native)\"\\s*:"
+            }
+          ]
+        }
+      }
     }
   ]
 }
